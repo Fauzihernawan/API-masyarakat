@@ -15,6 +15,7 @@ class Masyarakat extends Model
         'nik',
         'nama',
         'jenis_kelamin',
+        'tgl_lahir',
         'gol_darah',
         'alamat',
     ];

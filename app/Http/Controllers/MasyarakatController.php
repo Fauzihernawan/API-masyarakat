@@ -40,6 +40,7 @@ class MasyarakatController extends Controller
                 'nik' => 'required|min:12',
                 'nama' => 'required|min:3',
                 'jenis_kelamin' => 'required',
+                'tgl_lahir'=>'required',
                 'gol_darah' => 'required',
                 'alamat' => 'required|max:50',
             ]);
@@ -48,6 +49,7 @@ class MasyarakatController extends Controller
                 'nik' => $request->nik,
                 'nama' => $request->nama,
                 'jenis_kelamin' => $request->jenis_kelamin,
+                'tgl_lahir' => $request->tgl_lahir,
                 'gol_darah' => $request->gol_darah,
                 'alamat' => $request->alamat,
             ]);
@@ -102,6 +104,7 @@ class MasyarakatController extends Controller
                 'nik' => 'required|min:12',
                 'nama' => 'required|min:3',
                 'jenis_kelamin' => 'required',
+                'tgl_lahir'=>'required',
                 'gol_darah' => 'required',
                 'alamat' => 'required|max:50',
             ]);
@@ -112,6 +115,7 @@ class MasyarakatController extends Controller
                 'nik' => $request->nik,
                 'nama' => $request->nama,
                 'jenis_kelamin' => $request->jenis_kelamin,
+                'tgl_lahir' => $request->tgl_lahir,
                 'gol_darah' => $request->gol_darah,
                 'alamat' => $request->alamat,
             ]);
